@@ -44,7 +44,7 @@ Baseline comparisons:
 ```Matlab
 >> demo_Horseshoe
 ```
-<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/horseshoe.png" align="center" height="380" width="700"></a>
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/horseshoe.png" align="center" height="380" width="660"></a>
 
 
 ---
