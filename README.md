@@ -55,7 +55,7 @@ MCMC sampler implemented in <a href="http://mcmc-jags.sourceforge.net/"> JAGS</a
 ```r
 >> demo_JAGS_PoissonLogLinear
 ```
-Variational Gaussian copula approximation: 
+Variational Gaussian copula (VGC) inference: 
 
 ```Matlab
 >> demo_VGC_PoissonLogLinear
