@@ -4,7 +4,7 @@ We use Gaussian copulas with fixed/free-form margins as automated inference engi
 
 # Matlab code for the paper
 
-Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="Shaobo_AISTATS2016.pdf"> "Variational Gaussian Copula Inference"</a>, The 19th International Conference on Artificial Intelligence and Statistics (AISTATS 2016), Cadiz, Spain, May, 2016
+Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://people.ee.duke.edu/~lcarin/VGC_AISTATS2016.pdf"> "Variational Gaussian Copula Inference"</a>, The 19th International Conference on Artificial Intelligence and Statistics (AISTATS 2016), Cadiz, Spain, May, 2016
 
 # Details
 
