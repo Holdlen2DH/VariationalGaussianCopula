@@ -8,7 +8,7 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 
 ## Examples
 
-#### Demo 1: Flexible Margins (Skew normal, Student's t, Beta, Gamma) 
+#### Demo 1: Marginal Adaptation (Skew normal, Student's t, Beta, Gamma) 
 
 ```Matlab
 >> demo_SkewNormal
@@ -16,7 +16,7 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 >> demo_Gamma
 >> demo_Beta
 ```
-Marginal adaptation for real, positive real, and truncated [0,1] variables, 
+The accuracy of marginal approximation for real, positive real, and truncated [0,1] variables, 
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
 
@@ -27,12 +27,19 @@ Marginal adaptation for real, positive real, and truncated [0,1] variables,
 ```Matlab
 >> demo_BivariateLN
 ```
-Approximate Posterior using a bivariate Gaussian copula with (1) fixed-form log-normal distributed margins (2) free-form BP-based margins,
+Approximate bivariate log-normal distributions using a bivariate Gaussian copula with (1) fixed-form log-normal distributed margins (2) free-form Bernstein polynomial based margins,
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
 
 ---
 #### Demo 3: Horseshoe Shrinkage
+
+Baseline comparisons:  
+1.Gibbs sampler 
+2.Mean-field VB  
+3.VGC-LN-full: Gaussian Copula with Log-normal margins  
+4.VGC-LN-diag: Independent Copula with Log-normal margins 
+5.VGC-BP-full: Gaussian Copula with Bernstein polynomial margins
 
 ```Matlab
 >> demo_Horseshoe
@@ -40,10 +47,13 @@ Approximate Posterior using a bivariate Gaussian copula with (1) fixed-form log-
 ---
 #### Demo 4: Poisson Log-Linear Regression
 
+MCMC sampler implemented in RJAGS:
 
 ```r
 >> demo_JAGS_PoissonLogLinear
 ```
+VGC-BP method: 
+
 ```Matlab
 >> demo_VGC_PoissonLogLinear
 ```
