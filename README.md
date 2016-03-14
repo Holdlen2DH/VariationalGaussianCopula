@@ -12,8 +12,10 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
 
 ```Matlab
-some code
-some more code
+>> demo_SkewNormal
+>> demo_StudentT
+>> demo_Gamma
+>> demo_Beta
 ```
 
 
