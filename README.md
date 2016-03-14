@@ -19,9 +19,9 @@ Shaobo Han, Xuejun Liao, David Dunson, and Lawrence Carin, "Variational Gaussian
 
 If you found this code helpful, please cite the work using the following information:
 
-@inproceedings{VGC_2016,
-  title={Variational Gaussian Copula Inference},
-  author={Shaobo Han and Xuejun Liao and David B. Dunson and Lawrence Carin},
-  booktitle={The 19th International Conference on Artificial Intelligence and Statistics (AISTATS)},
-  year={2016},
-}
+  @inproceedings{VGC_2016,
+    title={Variational Gaussian Copula Inference},
+    author={Shaobo Han and Xuejun Liao and David B. Dunson and Lawrence Carin},
+    booktitle={The 19th International Conference on Artificial Intelligence and Statistics (AISTATS)},
+    year={2016},
+  }
