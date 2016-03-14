@@ -10,12 +10,12 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, "Variational Gauss
 
 * Demo 1: Flexible Margins (Skew normal, Student's t, Beta, Gamma) 
 
-<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/flexiblemargins.png" align="center" height="450" width="450"></a>
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="450" width="800"></a>
 
 
 * Demo 2: Bivariate Log-Normal
 
-<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="400" width="800"></a>
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
 
 
 * Demo 3: Horseshoe Shrinkage
@@ -23,7 +23,7 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, "Variational Gauss
 
 * Demo 4: Poisson Log-Linear Regression
 
-<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="400" width="800"></a>
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="500" width="800"></a>
 
 
 # Citations
