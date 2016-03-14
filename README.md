@@ -9,7 +9,6 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 ## Examples
 
 #### Demo 1: Flexible Margins (Skew normal, Student's t, Beta, Gamma) 
-<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
 
 ```Matlab
 >> demo_SkewNormal
@@ -18,27 +17,35 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 >> demo_Beta
 ```
 
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
 
 #### Demo 2: Bivariate Log-Normal
-
-<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
 
 ```Matlab
 >> demo_BivariateLN
 ```
+
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
+
+
 #### Demo 3: Horseshoe Shrinkage
 
 ```Matlab
 >> demo_Horseshoe
 ```
+
 #### Demo 4: Poisson Log-Linear Regression
+
+
+```r
+>> demo_JAGS_PoissonLogLinear
+```
+```Matlab
+>> demo_VGC_PoissonLogLinear
+```
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="550" width="800"></a>
 
-
-```Matlab
->> demo_
-```
 
 ## Citations
 
