@@ -18,13 +18,9 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 ```
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
-<a Marginal Adaptation>
+Marginal Adaptation
 
-<figure>
-    <img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
-    <figcaption> Marginal Adaptation </figcaption>
-</figure>
-
+---
 #### Demo 2: Bivariate Log-Normal
 
 ```Matlab
@@ -34,13 +30,13 @@ Approximate Posterior via VGC methods
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
 
-
+---
 #### Demo 3: Horseshoe Shrinkage
 
 ```Matlab
 >> demo_Horseshoe
 ```
-
+---
 #### Demo 4: Poisson Log-Linear Regression
 
 
@@ -52,8 +48,9 @@ Approximate Posterior via VGC methods
 ```
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="550" width="800"></a>
-Univaraite Margins and Pairwise Posteriors (JAGS v.s. VGC-BP)
 
+Univaraite Margins and Pairwise Posteriors (JAGS v.s. VGC-BP)
+---
 ## Citations
 
 If you find this code helpful, please cite the work using the following information:
