@@ -35,11 +35,11 @@ Approximate bivariate log-normal distributions using a bivariate Gaussian copula
 #### Demo 3: Horseshoe Shrinkage
 
 Baseline comparisons:  
-1.Gibbs sampler 
-2.Mean-field VB  
-3.VGC-LN-full: Gaussian Copula with Log-normal margins  
-4.VGC-LN-diag: Independent Copula with Log-normal margins 
-5.VGC-BP-full: Gaussian Copula with Bernstein polynomial margins
+* Gibbs sampler 
+* Mean-field VB  
+* VGC-LN-full: Gaussian Copula with Log-normal margins  
+* VGC-LN-diag: Independence Copula with Log-normal margins
+* VGC-BP-full: Gaussian Copula with Bernstein polynomial margins
 
 ```Matlab
 >> demo_Horseshoe
@@ -47,20 +47,20 @@ Baseline comparisons:
 ---
 #### Demo 4: Poisson Log-Linear Regression
 
-MCMC sampler implemented in RJAGS:
+MCMC sampler implemented in <a href="http://mcmc-jags.sourceforge.net/"> JAGS</a>:
 
 ```r
 >> demo_JAGS_PoissonLogLinear
 ```
-VGC-BP method: 
+Variational Gaussian copula approximation: 
 
 ```Matlab
 >> demo_VGC_PoissonLogLinear
 ```
+Univaraite margins and pairwise posteriors (JAGS v.s. VGC-BP):
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="550" width="800"></a>
 
-Univaraite Margins and Pairwise Posteriors (JAGS v.s. VGC-BP)
 
 ---
 
