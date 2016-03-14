@@ -12,6 +12,9 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, "Variational Gauss
 
 * Demo 2: Bivariate Log-Normal
 
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="left" height="480" width="480" ></a>
+
+
 * Demo 3: Horseshoe Shrinkage
 
 * Demo 4: Poisson Log-Linear Regression
