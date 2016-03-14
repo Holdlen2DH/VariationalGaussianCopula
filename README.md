@@ -1,7 +1,9 @@
 ## Variational Gaussian Copula Inference
+=============================================================================
 We use Gaussian copulas with fixed/free-form margins as automated inference engines for variational approximation in generic hierarchical Bayesian models. The only two model-specific terms are the log likelihood & prior term and its derivatives. We evaluate the peculiarities reproduced in the univariate margins and the posterior dependence captured broadly across latent variables.
+-------
 
-## Matlab Code for the paper
+## Matlab code for the paper
 
 Shaobo Han, Xuejun Liao, David Dunson, and Lawrence Carin, "Variational Gaussian Copula Inference", The 19th International Conference on Artificial Intelligence and Statistics (AISTATS 2016), Cadiz, Spain, May, 2016
 
