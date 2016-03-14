@@ -10,7 +10,7 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, "Variational Gauss
 
 * Demo 1: Flexible Margins (Skew normal, Student's t, Beta, Gamma) 
 
-<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="450" width="800"></a>
+<a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
 
 
 * Demo 2: Bivariate Log-Normal
