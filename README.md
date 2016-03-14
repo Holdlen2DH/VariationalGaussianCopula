@@ -20,6 +20,11 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
 Marginal Adaptation
 
+<figure>
+    <img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
+    <figcaption>Marginal Adaptation</figcaption>
+</figure>
+
 #### Demo 2: Bivariate Log-Normal
 
 ```Matlab
