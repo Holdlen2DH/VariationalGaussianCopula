@@ -50,7 +50,9 @@ Approximate Posterior via VGC methods
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="550" width="800"></a>
 
 Univaraite Margins and Pairwise Posteriors (JAGS v.s. VGC-BP)
+
 ---
+
 ## Citations
 
 If you find this code helpful, please cite the work using the following information:
