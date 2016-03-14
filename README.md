@@ -9,10 +9,8 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 ## Examples
 
 #### Demo 1: Flexible Margins (Skew normal, Student's t, Beta, Gamma) 
-<figure>
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
-<figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
-</figure>
+
 
 
 
