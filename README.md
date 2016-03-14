@@ -16,9 +16,10 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 >> demo_Gamma
 >> demo_Beta
 ```
+Marginal adaptation for real, positive real, and truncated [0,1] variables, 
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
-Marginal Adaptation
+
 
 ---
 #### Demo 2: Bivariate Log-Normal
@@ -26,7 +27,7 @@ Marginal Adaptation
 ```Matlab
 >> demo_BivariateLN
 ```
-Approximate Posterior via VGC methods
+Approximate Posterior using a bivariate Gaussian copula with (1) fixed-form log-normal distributed margins (2) free-form BP-based margins,
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
 
