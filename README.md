@@ -23,14 +23,22 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
 
-
+```Matlab
+>> demo_BivariateLN
+```
 #### Demo 3: Horseshoe Shrinkage
 
-
+```Matlab
+>> demo_Horseshoe
+```
 #### Demo 4: Poisson Log-Linear Regression
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="550" width="800"></a>
 
+
+```Matlab
+>> demo_
+```
 
 ## Citations
 
