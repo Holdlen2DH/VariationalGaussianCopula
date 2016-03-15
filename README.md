@@ -1,6 +1,6 @@
 # Variational Gaussian Copula Inference
 
-We use Gaussian copulas (combined with fixed/free-form margins) as **automated inference engines** for variational approximation in generic hierarchical Bayesian models (The only two model-specific terms are the log likelihood & prior term and its derivatives). We evaluate the **peculiarities** reproduced in the univariate margins and the **posterior dependence** captured broadly across latent variables.
+We use Gaussian copulas (combined with fixed/free-form margins) as **automated inference engines** for variational approximation in generic hierarchical Bayesian models (the only two model-specific terms are the log likelihood & prior term and its derivatives). We evaluate the **peculiarities** reproduced in the univariate margins and the **posterior dependence** captured broadly across latent variables.
 
 ## Matlab code for the paper
 
@@ -16,7 +16,7 @@ Shaobo Han, Xuejun Liao, David B. Dunson, and Lawrence Carin, <a href="http://pe
 >> demo_Gamma
 >> demo_Beta
 ```
-The accuracy of marginal approximation for real, positive real, and truncated [0,1] variables, 
+The accuracy of marginal approximation for real, positive real, and truncated [0,1] variables is shown as follows, 
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/margins.png" align="center" height="200" width="800"></a>
 
@@ -27,19 +27,19 @@ The accuracy of marginal approximation for real, positive real, and truncated [0
 ```Matlab
 >> demo_BivariateLN
 ```
-Approximate bivariate log-normal distributions using a bivariate Gaussian copula with (1) fixed-form log-normal distributed margins (2) free-form Bernstein polynomial based margins,
+We approximate bivariate log-normal distributions using a bivariate Gaussian copula with (1) fixed-form log-normal distributed margins (2) free-form Bernstein polynomial based margins,
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/lognormal.png" align="center" height="300" width="800"></a>
 
 ---
 #### Demo 3: Horseshoe Shrinkage
 
-Baseline comparisons:  
+Baseline comparisons include:  
 * Gibbs sampler 
 * Mean-field VB  
-* VGC-LN-full: Gaussian Copula with Log-normal margins  
-* VGC-LN-diag: Independence Copula with Log-normal margins
-* VGC-BP-full: Gaussian Copula with Bernstein polynomial margins
+* VGC-LN-full: Gaussian copula with log-normal margins  
+* VGC-LN-diag: Independence copula with Log-normal margins
+* VGC-BP-full: Gaussian copula with Bernstein polynomial margins
 
 ```Matlab
 >> demo_Horseshoe
@@ -50,7 +50,7 @@ Baseline comparisons:
 ---
 #### Demo 4: Poisson Log-Linear Regression
 
-MCMC sampler implemented in <a href="http://mcmc-jags.sourceforge.net/"> JAGS</a>:
+MCMC sampler is implemented in <a href="http://mcmc-jags.sourceforge.net/"> JAGS</a>:
 
 ```r
 >> demo_JAGS_PoissonLogLinear
@@ -60,7 +60,7 @@ Variational Gaussian copula (VGC) inference:
 ```Matlab
 >> demo_VGC_PoissonLogLinear
 ```
-Univaraite margins and pairwise posteriors (JAGS v.s. VGC-BP):
+The univaraite margins and pairwise posteriors (JAGS v.s. VGC-BP) are shown below:
 
 <a href="url"><img src="https://github.com/shaobohan/VariationalGaussianCopula/blob/master/figure/VGC-JAGS.png" align="center" height="550" width="800"></a>
 
